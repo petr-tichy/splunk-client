@@ -83,7 +83,7 @@ class SplunkClient
       http = Net::HTTP.new(@HOST, @PORT)
     end
     http.read_timeout = @READ_TIMEOUT
-    http.use_ssl = @SSL
+    http.use_ssl = @USE_SSL
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     http
   end
