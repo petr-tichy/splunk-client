@@ -2,6 +2,7 @@
 # Original Repo:: https://github.com/cbrito/splunk-client
 
 require File.expand_path File.join(File.dirname(__FILE__), 'splunk_results')
+require 'splunk_exceptions'
 
 
 class SplunkJob
