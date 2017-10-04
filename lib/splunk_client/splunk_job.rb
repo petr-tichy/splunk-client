@@ -9,8 +9,8 @@ class SplunkJob
   attr_reader :jobId
   attr_accessor :succeeded
 
-  REQUEST_LIMIT = 40
-  REQUEST_WAIT_TIME = 4
+  REQUEST_LIMIT = 120
+  REQUEST_WAIT_TIME = 8
 
   def initialize(jobId, clientPointer)
     @jobId  = jobId
